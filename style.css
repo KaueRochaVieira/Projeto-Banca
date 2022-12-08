@@ -445,7 +445,7 @@ body.menu-expanded button path {
 
 /*=== ELETRONICOS =================================*/
 #eletronicos {
-  text-align: left;
+  text-align: center;
   text-color: black;
   font-size: 19px;
 }
@@ -459,6 +459,9 @@ body.menu-expanded button path {
 }
 
 #eletronicos ol {
+  float: left;
+  width: 50%;
+  height: 50%;
   list-style-type: disc;
   list-style-position: inside;
 }
@@ -480,7 +483,7 @@ body.menu-expanded button path {
 
 /* SERVIÇOS */
 #servicos {
-  text-align: left;
+  text-align: center;
   text-color: black;
   font-size: 19px;
 }
@@ -494,6 +497,9 @@ body.menu-expanded button path {
 }
 
 #servicos ol {
+  float: left;
+  width: 50%;
+  height: 50%;
   list-style-type: disc;
   list-style-position: inside;
 }
