@@ -459,9 +459,6 @@ body.menu-expanded button path {
 }
 
 #eletronicos ol {
-  float: left;
-  width: 50%;
-  height: 50%;
   list-style-type: disc;
   list-style-position: inside;
 }
@@ -497,9 +494,6 @@ body.menu-expanded button path {
 }
 
 #servicos ol {
-  float: left;
-  width: 50%;
-  height: 50%;
   list-style-type: disc;
   list-style-position: inside;
 }
@@ -842,9 +836,25 @@ footer .facebook:hover {
     margin-inline: auto;
   }
 
+  #eletronicos ol {
+    float: left;
+    width: 50%;
+    height: 50%;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+
   #servicos h2 {
     width: 47rem;
     margin-inline: auto;
+  }
+
+  #servicos ol {
+    float: left;
+    width: 50%;
+    height: 50%;
+    list-style-type: disc;
+    list-style-position: inside;
   }
   /*=== CONTACT =================================*/
 
